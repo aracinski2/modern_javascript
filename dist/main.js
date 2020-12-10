@@ -1427,7 +1427,7 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\n//! mome
 /*!******************!*
   !*** ./index.js ***!
   \******************/
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"bunch of awesome stuff\");\nconsole.log(moment().format('dddd')); // import { sqrt } from 'mathjs';\n// console.log(sqrt(-4).toString());\n\nvar x;\nx = 10;\nconsole.log(x);\n\n//# sourceURL=webpack://modern_javascript/./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"bunch of awesome stuff\");\nconsole.log(moment().format('dddd')); // import { sqrt } from 'mathjs';\n// console.log(sqrt(-4).toString());\n\nvar x;\nx = 10;\nconsole.log(x);\nvar firstName = \"John\";\nvar lastName = \"Doe\";\nvar age = 23;\nvar person = {\n  // shortcut ONLY if the key has the same name \n  firstName: firstName,\n  // as the variable for the value\n  lastName: lastName,\n  age: age\n};\n\n//# sourceURL=webpack://modern_javascript/./index.js?");
 })();
 
 /******/ })()
